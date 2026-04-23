@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net" modified="2024-04-23T15:05:00.000Z" agent="Antigravity" version="21.0.0" type="device">
+  <diagram id="HLD_Detailed_Diagram" name="JobPortal HLD Professional">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- CLIENT TIER -->
+        <mxCell id="c_tier" value="CLIENT TIER (REACT SPA)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="240" height="740" as="geometry" />
+        </mxCell>
+        
+        <!-- Student Section -->
+        <mxCell id="s_group" value="Student / Candidate" style="group;" vertex="1" connectable="0" parent="c_tier">
+          <mxGeometry x="10" y="40" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="s_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;arcSize=10;" vertex="1" parent="s_group">
+          <mxGeometry width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="s_icon" value="" style="shape=image;image=https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/react.svg;verticalLabelPosition=bottom;verticalAlign=top;aspect=fixed;imageAspect=0;" vertex="1" parent="s_group">
+          <mxGeometry x="10" y="10" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" value="Candidate Dashboard" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="s_group">
+          <mxGeometry x="40" y="5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="• AI Resume Builder&#10;• AI Job Search&#10;• My Applications&#10;• Saved Jobs&#10;• English Tutor&#10;• Skill Learning&#10;• Competitions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="s_group">
+          <mxGeometry x="20" y="40" width="180" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Recruiter Section -->
+        <mxCell id="r_group" value="Recruiter" style="group;" vertex="1" connectable="0" parent="c_tier">
+          <mxGeometry x="10" y="280" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;arcSize=10;" vertex="1" parent="r_group">
+          <mxGeometry width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" value="Recruiter Dashboard" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="r_group">
+          <mxGeometry x="40" y="5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="• Post New Jobs&#10;• Manage Applicants&#10;• Host Competitions&#10;• College Partnerships" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="r_group">
+          <mxGeometry x="20" y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- College Section -->
+        <mxCell id="col_group" value="College" style="group;" vertex="1" connectable="0" parent="c_tier">
+          <mxGeometry x="10" y="420" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="col_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=10;" vertex="1" parent="col_group">
+          <mxGeometry width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="col1" value="College Portal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="col_group">
+          <mxGeometry x="40" y="5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="col2" value="• Campus Drives&#10;• Placement Stats&#10;• Company Outreach" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="col_group">
+          <mxGeometry x="20" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Admin Section -->
+        <mxCell id="a_group" value="Admin" style="group;" vertex="1" connectable="0" parent="c_tier">
+          <mxGeometry x="10" y="540" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;arcSize=10;" vertex="1" parent="a_group">
+          <mxGeometry width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" value="Admin Console" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="a_group">
+          <mxGeometry x="40" y="5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="• User Management&#10;• Course Approval&#10;• Issue Resolution&#10;• Payment Monitoring" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="a_group">
+          <mxGeometry x="20" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Teacher Section -->
+        <mxCell id="t_group" value="Teacher" style="group;" vertex="1" connectable="0" parent="c_tier">
+          <mxGeometry x="10" y="660" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;arcSize=10;" vertex="1" parent="t_group">
+          <mxGeometry width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t1" value="Teacher Portal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="t_group">
+          <mxGeometry x="40" y="5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" value="• Course Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="t_group">
+          <mxGeometry x="20" y="40" width="180" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- APPLICATION TIER -->
+        <mxCell id="app_tier" value="APPLICATION TIER (EXPRESS ENGINE)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="280" height="740" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="app_icon" value="" style="shape=image;image=https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/node-dot-js.svg;verticalLabelPosition=bottom;verticalAlign=top;aspect=fixed;imageAspect=0;" vertex="1" parent="app_tier">
+          <mxGeometry x="10" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="gw" value="REST API GATEWAY&#10;(Auth, Rate Limiting, CORS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="app_tier">
+          <mxGeometry x="50" y="40" width="210" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mod_group" value="Business Logic Modules" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="app_tier">
+          <mxGeometry x="20" y="110" width="240" height="610" as="geometry" />
+        </mxCell>
+
+        <mxCell id="m1" value="Auth &amp; Session Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="35" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="Job &amp; Applicant Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="80" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="Course &amp; LMS Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="125" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" value="Payment &amp; Transaction Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="170" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" value="AI Service (Gemini Integration)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="215" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" value="Interview &amp; Assessment Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="270" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m7" value="English Tutor (TTS/AI) Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="315" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m8" value="Competition &amp; Rewards" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="360" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m9" value="Notification (Email/Push)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="405" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m10" value="College &amp; Drive Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="450" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m11" value="Issue &amp; Support Ticketing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="495" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m12" value="Utility (File/S3/Buffer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mod_group">
+          <mxGeometry x="10" y="540" width="220" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- DATA TIER -->
+        <mxCell id="data_tier" value="DATA TIER" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="db_icon" value="" style="shape=image;image=https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/mongodb.svg;verticalLabelPosition=bottom;verticalAlign=top;aspect=fixed;imageAspect=0;" vertex="1" parent="data_tier">
+          <mxGeometry x="10" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="db" value="MongoDB Cluster&#10;(Mongoose ODM)" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="data_tier">
+          <mxGeometry x="50" y="40" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fs" value="Local Buffer / Temp&#10;(File Parser)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="data_tier">
+          <mxGeometry x="50" y="150" width="140" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- EXTERNAL INTEGRATIONS -->
+        <mxCell id="ext_tier" value="EXTERNAL INTEGRATIONS" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="320" width="220" height="460" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="ex1" value="AWS S3 &amp; CloudFront&#10;(Storage &amp; CDN)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ext_tier">
+          <mxGeometry x="30" y="40" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ex1_icon" value="" style="shape=image;image=https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/amazons3.svg;verticalLabelPosition=bottom;verticalAlign=top;aspect=fixed;imageAspect=0;" vertex="1" parent="ex1">
+          <mxGeometry x="65" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ex2" value="Cashfree Payments" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ext_tier">
+          <mxGeometry x="30" y="120" width="160" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="ex3" value="Google Gemini API&#10;(AI Engine)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ext_tier">
+          <mxGeometry x="30" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ex3_icon" value="" style="shape=image;image=https://www.gstatic.com/lamda/images/favicon_v2_16x16.png;verticalLabelPosition=bottom;verticalAlign=top;aspect=fixed;imageAspect=0;" vertex="1" parent="ex3">
+          <mxGeometry x="70" y="15" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ex4" value="Nodemailer / SMTP&#10;(Communication)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ext_tier">
+          <mxGeometry x="30" y="280" width="160" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ex5" value="Edge TTS&#10;(Speech Engine)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="ext_tier">
+          <mxGeometry x="30" y="360" width="160" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- CONNECTIONS -->
+        <mxCell id="conn1" value="HTTPS / JSON" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;fontSize=10;" edge="1" parent="1" source="c_tier" target="gw">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="conn2" value="Mongoose ODM" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.2;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;fontSize=10;" edge="1" parent="1" source="app_tier" target="db">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="conn3" value="Cloud APIs / SDKs" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;fontSize=10;" edge="1" parent="1" source="app_tier" target="ext_tier">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="title" value="HYREGO JOB PORTAL - HIGH LEVEL DESIGN (HLD)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="900" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
